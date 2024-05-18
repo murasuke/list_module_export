@@ -4,7 +4,7 @@
 
 ESModuleを動的にロードして、そのモジュールでexportされた関数や変数の一覧を取得する方法です
 
-`dynamic import`でロードしたmoduleの`key`一覧を取得すればよいようです
+`dynamic import`でロードすると、moduleの`key`がexportした名前になっていました
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/import
 
